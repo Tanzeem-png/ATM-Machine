@@ -105,9 +105,19 @@ def main():
 
 
 
-
-
-main()
+print()
+print()
+admin = input("What's your name? ")
+while admin != "Tanzeem":
+    print()
+    print("You'r Not The Admin")
+    print()
+    admin = input("Try Again : ")
+    print()
+print("Welcome Sir!")
+print()
+print() 
+main()   
 
     
 
